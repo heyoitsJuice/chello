@@ -3,6 +3,8 @@ import { Todo } from "../types/type";
 import SingleTodo from "./SingleTodo";
 import { Droppable } from "react-beautiful-dnd";
 
+// TO-DO: Debug app crash upon splicing through IN PROGRESS droppable. 
+
 interface props {
   todos: Array<Todo>;
   setTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>;

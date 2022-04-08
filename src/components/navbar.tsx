@@ -23,10 +23,7 @@ export default function Nav() {
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Box>
                         <Heading
-                            // maxW={'3xl'}
                             fontWeight={600}
-                        // fontSize={{ base: 'large', sm: '2xl', md: '4xl' }}
-                        // textAlign={'left'}
                         >
                             chello
                         </Heading>

@@ -6,6 +6,9 @@ import { Todo } from "./types/type";
 import { DragDropContext, DropResult } from "react-beautiful-dnd"
 import CallToActionWithAnnotation from "./components/hero";
 
+
+// TO-DO: Debug app crash upon splicing through IN PROGRESS droppable. 
+
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<Array<Todo>>([]);
