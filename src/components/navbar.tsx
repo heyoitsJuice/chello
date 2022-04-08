@@ -33,7 +33,7 @@ export default function Nav() {
                     </Box>
                     <Flex alignItems={'center'}>
                         <Stack direction={'row'} spacing={7}>
-                            <Link href="https://github.com/heyoitsJuice/forecast">
+                            <Link href="https://github.com/heyoitsJuice/chello">
                                 <IconButton aria-label="github" fontSize='40px' icon={<IoLogoGithub />} />
                             </Link>
                             <Button onClick={toggleColorMode}>
