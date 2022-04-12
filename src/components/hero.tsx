@@ -43,6 +43,18 @@ const CallToActionWithAnnotation: React.FC = () => {
                         >
                             Have fun drag and dropping!
                         </Heading>
+                        <Heading
+                            fontWeight={300}
+                            fontSize={{ base: 'large', sm: 'xl', md: '2xl' }}
+                            textAlign={'left'}
+                            color={'gray.500'}
+                        >
+                            How to use: <br/>
+                            Use the input field to add a task. <br/>
+                            When editing, press enter to confirm edit. <br/>
+                            Trashcan icon deletes action item. <br />
+                            Checkmark icon strikesthrough text. <br />
+                        </Heading>
                     </Stack>
                 </Stack>
             </Container>

@@ -31,7 +31,7 @@ const Search: React.FC<props> = ({ todo, setTodo, handleAdd }) => {
                     className="input__box"
                 />
             </InputGroup>
-            <Button type="submit" colorScheme='yellow' variant='solid'>
+            <Button ml={2} type="submit" colorScheme='yellow' variant='solid'>
                 Add
             </Button>
     </form>
